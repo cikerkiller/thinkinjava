@@ -29,7 +29,7 @@ public class BufferedInputFile {
 		for(String str : list) {
 			System.out.println(str);
 		}
-	}
+	}  
 	
 	public static void main(String[] args) throws Exception {
 //		System.out.println(read("D:\\hf\\eclipse-workspace\\ThinkInJava\\src\\com\\hf\\lesson18\\BufferedInputFile.java"));

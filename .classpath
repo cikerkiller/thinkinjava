@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_80"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="src/lib/xom-1.2.10.jar" sourcepath="C:/Users/WIN10/AppData/Local/Temp/.org.sf.feeling.decompiler1528946199328/source/xom-1.2.10-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

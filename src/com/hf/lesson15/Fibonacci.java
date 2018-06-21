@@ -14,6 +14,13 @@ public class Fibonacci implements Generator<Integer>,Iterable<Integer>{
 	public Integer next() {
 		return fil(count++);
 	}
+	public String all() {
+		StringBuilder sbu = new StringBuilder();
+		while(size--> 0) {
+			sbu.append(next()+" ");
+		}
+		return sbu.toString();
+	}
 	private int size;
 	public Fibonacci() {} 
 	public Fibonacci(int size) {this.size=size;} 
