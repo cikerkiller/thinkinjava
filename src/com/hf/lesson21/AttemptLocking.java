@@ -31,7 +31,7 @@ public class AttemptLocking {
 			}
 		}
 	}
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception{
 		final AttemptLocking al = new AttemptLocking();
 		al.untimed();
 		al.timed();
@@ -45,7 +45,8 @@ public class AttemptLocking {
 				System.out.println("acquired");
 			}
 		}.start();
-		Thread.yield();// 
+		TimeUnit.SECONDS.sleep(1);// 此处主线程休息一秒,后台线程运行
+//		Thread.yield();// 没有用，这个看平台或者JVM，此处主线程没有把运行机会给后台线程
 		al.untimed();
 		al.timed();
 	}
